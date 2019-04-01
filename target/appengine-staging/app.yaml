@@ -1,0 +1,29 @@
+
+runtime: java
+env: flex
+
+runtime_config:  # Optional
+  jdk: openjdk8
+
+handlers:
+- url: /.*
+  script: this field is required, but ignored
+
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 15
+  cool_down_period_sec: 180
+  cpu_utilization:
+    target_utilization: 0.6
+
+endpoints_api_service:
+  name: greenbarnadmin.appspot.com
+  rollout_strategy: managed
+  
+readiness_check:
+  path: "/readiness_check"
+  check_interval_sec: 5
+  timeout_sec: 4
+  failure_threshold: 2
+  success_threshold: 2
+  app_start_timeout_sec: 300

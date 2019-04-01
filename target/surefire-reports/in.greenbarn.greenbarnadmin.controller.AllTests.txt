@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: in.greenbarn.greenbarnadmin.controller.AllTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.047 s <<< FAILURE! - in in.greenbarn.greenbarnadmin.controller.AllTests
+getAdmin(in.greenbarn.greenbarnadmin.controller.AdminControllerTest)  Time elapsed: 0 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.NullPointerException
+	at in.greenbarn.greenbarnadmin.controller.AdminControllerTest.getAdmin(AdminControllerTest.java:54)
+Caused by: java.lang.NullPointerException
+	at in.greenbarn.greenbarnadmin.controller.AdminControllerTest.getAdmin(AdminControllerTest.java:54)
+
+initializationError(in.greenbarn.greenbarnadmin.controller.AddressControllerTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: No runnable methods
+
+initializationError(in.greenbarn.greenbarnadmin.controller.GreenbarnAgentControllerTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: No runnable methods
+

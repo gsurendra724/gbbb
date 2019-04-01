@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: in.greenbarn.greenbarnadmin.AllTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.08 s <<< FAILURE! - in in.greenbarn.greenbarnadmin.AllTests
+retrieveDetailsForAdmin(in.greenbarn.greenbarnadmin.AdminControllerTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalArgumentException
+	at in.greenbarn.greenbarnadmin.AdminControllerTest.retrieveDetailsForAdmin(AdminControllerTest.java:38)
+
+initializationError(in.greenbarn.greenbarnadmin.AddressControllerTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: No runnable methods
+
+initializationError(in.greenbarn.greenbarnadmin.GreenbarnAgentControllerTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: No runnable methods
+

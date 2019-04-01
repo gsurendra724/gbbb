@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: in.greenbarn.greenbarnadmin.AdminControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 13.208 s <<< FAILURE! - in in.greenbarn.greenbarnadmin.AdminControllerTest
+retrieveDetailsForAdmin(in.greenbarn.greenbarnadmin.AdminControllerTest)  Time elapsed: 0.069 s  <<< ERROR!
+java.lang.IllegalArgumentException
+	at in.greenbarn.greenbarnadmin.AdminControllerTest.retrieveDetailsForAdmin(AdminControllerTest.java:38)
+

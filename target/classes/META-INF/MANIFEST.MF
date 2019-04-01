@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: gr
+Implementation-Version: 0.1.0-SNAPSHOT
+Built-By: Ishaan
+Implementation-Vendor-Id: gb
+Build-Jdk: 1.8.0_181
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/gr
+Created-By: Maven Integration for Eclipse
+
